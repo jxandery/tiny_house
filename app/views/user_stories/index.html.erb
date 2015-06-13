@@ -1,0 +1,7 @@
+<h1>YEH! Tiny Houses</h1>
+
+<% @user_stories.each do |us| %>
+  <%= link_to us.name, user_story_path(us.id) %>
+<% end %>
+
+
